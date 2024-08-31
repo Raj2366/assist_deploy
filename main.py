@@ -69,7 +69,7 @@ dic = ('afrikaans', 'af', 'albanian', 'sq',
 
 app = Flask(__name__)
 
-engine = pyttsx3.init(driverName='espeak')#speech API
+engine = pyttsx3.init(driverName='nsss') 
 voices = engine.getProperty("voices")
 engine.setProperty("voice", [1])
 engine.setProperty("rate", 170) #170 words per minute
