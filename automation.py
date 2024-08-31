@@ -8,7 +8,7 @@ from deep_translator import GoogleTranslator
 from gtts import gTTS 
 import os
 
-engine = pyttsx3.init(driverName='espeak')
+engine = pyttsx3.init(driverName='nsss') 
 voices = engine.getProperty("voices")
 engine.setProperty("voice", voices[1].id)
 engine.setProperty("rate",170)
